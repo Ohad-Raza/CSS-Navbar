@@ -1,0 +1,59 @@
+@font-face {
+    font-family:"SHF";
+    src: url(./Ubuntu-Bold.ttf),format(ttf); 
+}
+.header ul li{
+    display: inline-block;
+    padding: 8px;
+    font-size: 18px;
+    
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header ul li a:hover{
+    color: orange;
+}
+
+.header ul li a.current:visited{
+    color: rgb(174, 89, 174);
+}
+
+
+.heading2 {
+text-align: center;
+}
+/* p,div{
+    font-family: 'Times New Roman', Times, serif;
+} */
+/* .para {
+   margin-right: auto;
+   margin-left: 0px;
+   display: table;
+   word-wrap: break-word;
+} */
+.para2{
+    text-align: center;
+    text-justify: auto;
+    width: 250px;
+}
+.header{
+    text-align: center;
+}
+.btn {
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    padding: 8px;
+    width: 95px;
+    height: 35px;
+    border: hidden;
+    border-style: outset;
+    border-radius: 12px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
